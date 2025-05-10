@@ -1,3 +1,15 @@
+This project is an AI Fitness trainer that generates personalized workout & diet plans based on a voice conversation with an AI Agent using Vapi. The user will register for an account using clerk authentication (google, github, & email), and then have a voice conversation with the AI agent to discuss infomation such as weight, height, dietary conditions, fitness goals, ect. This information will then be stored in a convex database and fed into Gemini API to generate a custom plan for the user in real time. 
+
+DEMO VIDEO: 
+
+Tech Stack:
+- Next.Js, React, Tailwind & Shadcn UI
+- Voice AI Assistant (Vapi)
+- LLM Integration (Google Gemini API)
+- Authentication & Authorization using Clerk
+- Convex Database
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
