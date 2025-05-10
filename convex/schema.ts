@@ -11,7 +11,7 @@ export default defineSchema({
     }).index("by_clerk_id", ["clerkId"]),
 
     plans: defineTable({
-        userId: v.id("users"),
+        userId: v.string(),
         name: v.string(),
         workoutPlan: v.object({
             schedule: v.array(v.string()),
@@ -28,7 +28,7 @@ export default defineSchema({
             }))
         }),
 
-        dietplan: v.object({
+        dietPlan: v.object({
             dailyCalories: v.number(),
             meals: v.array(v.object({
                 name: v.string(),
