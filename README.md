@@ -9,6 +9,14 @@ Tech Stack:
 - Authentication & Authorization using Clerk
 - Convex Database
 
+1. Set up authentication with clerk
+2. Set up and configure vapi voice agent
+3. Set up database with convex
+4. Implement webhook between clerk and convex
+5. Generate home screen & generate-program pages
+6. Connect requests to gemini api
+7. Build profile page
+8. Deploy
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
